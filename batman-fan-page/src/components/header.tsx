@@ -2,9 +2,9 @@ import Image from "next/image"
 
 
 
-export default function Header(){
+export default function Header(props:any){
     return(
-        <div className="flex items-center bordex-b-4 px-6 h-24 justify-around bg-yellow-400 font-medium  border-2 border-dashed border-black font-sans md:font-serif">
+        <div className="flex items-center bordex-b-4 px-6 h-24 justify-around bg-yellow-400 font-medium  border-2 border-dashed border-black font-sans md:font-serif" >
             <div>
             <Image
             src="/img/batman_logo.png"
